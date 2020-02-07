@@ -15,16 +15,18 @@
  
  <img src=screenShots/climaLightMode.png width=200px> <img src=screenShots/climaDarkMode.png width=200px>
  
-Clima shows the current temperature of a searched place and the type of weather.
+Clima shows the current temperature of a searched place and the weather condition.
 
-we can search for a place by typing the places name on the search text field located in the upper side of the screen, and by clicking on the search button next to it from right side, or tapping on the Done button on the keyboard we can start the search.
+we can search for a place by typing the places name on the search text field located in the upper side of the screen, and by tapping on the search button next to it from right side, or tapping on the Done button on the keyboard we can start the search.
 
 the request with the location name sent to the api, and the api gives back data.
 
-we parse the data to a parsing object we created only for that, and than making a weatherModel from it, witch we sending back to the controller to update the user interface. all of that by using delegate.
+we parse the data to a parsing object we created only for that, and than making a weatherModel from it, witch we sending back to the controller to update the user interface.
 
-we setting the temperature and formatted string with 1 number after floating point.
-showing the weather condition using the api's conditionID, and sweaching it with the right system image name.
+setting a collback using the delegate design pattern.
+
+we setting the temperature as formatted string with 1 number after floating point.
+showing the weather condition using the api's conditionID, and swiching it with the right system image name.
 showing the right places name we got from the api as well.
 
 the app is light/dark mode responding.
