@@ -13,5 +13,5 @@
  
  ScreenShots:
  
- <img src=screenShots/climaLightMode.png width=300px> <img src=screenShots/climaDarkMode.png width=300px>
+ <img src=screenShots/climaLightMode.png width=200px> <img src=screenShots/climaDarkMode.png width=200px>
  
