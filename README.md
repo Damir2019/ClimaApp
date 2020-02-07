@@ -13,4 +13,5 @@
  
  ScreenShots:
  
+ <img src=screenShots/climaLightMode.png> <img src=screenShots/clomaDarkMode.png>
  
